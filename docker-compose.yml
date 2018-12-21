@@ -25,7 +25,7 @@ services:
       context: ./services/applicants.api
       dockerfile: Dockerfile.debug
     ports: 
-    - "8081:80"
+    - "8091:80"
     volumes: 
       - ./services/applicants.api/bin/pub/:/app
     container_name: applicants.api
